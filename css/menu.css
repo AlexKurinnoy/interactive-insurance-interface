@@ -1,0 +1,64 @@
+/* Body */
+ 
+body {
+  left: 0;
+  margin: 0;
+
+  position: relative;
+}
+ 
+ 
+/* Menu */
+ 
+.menu {
+  background: #eee;
+  
+  height: 100%;
+  position: fixed;
+  width: 0px;
+}
+ 
+ 
+/* Basic CSS */
+ 
+
+ 
+.menu ul {
+  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.menu li {
+  
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-top: 6px;
+}
+ 
+.menu li:hover {
+  cursor: pointer;
+  background-color: #FFF;
+  }
+ 
+.menu a {
+  color: #777777;
+  font-size: 15px;
+  text-decoration: none;  
+}
+
+.menu a:hover {
+    color: #4C2DD1;
+  }
+
+
+ 
+.icon-menu {
+  cursor:pointer;
+  float: left;
+  padding-top: 5px;  
+  padding-left: 15px;
+  float: left;
+}
+ 

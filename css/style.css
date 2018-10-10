@@ -1,0 +1,174 @@
+  @import "menu.css" all;
+
+.container-fluid{
+    margin-top: 10px; 
+    
+}
+
+.nav_container{
+ padding-right: 10px;
+ 
+  background: #fff;
+}
+
+.nav {
+  font-size: 12px;
+  background-color: #eee;
+ 
+        }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: white;
+    }
+
+.content{
+    background: #eee;
+    border: 1px solid #E8E8E8;
+    padding-bottom: 10px; 
+    }
+.table-bordered{
+    box-shadow: 0px 3px 7px #888888;
+}
+
+ .foother{
+    padding: 10px 10px;
+    
+    background-color: #eee;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }   
+.foother button{
+    margin-left: 12px;
+}
+.foother p {
+    color: red;
+    font-size: 16px;
+    padding-top: 5px; 
+}
+
+
+
+
+.title_content{        /*заголовок таблиц*/
+    display: block;
+    background: #d1e8ef;
+    margin-top: 10px;
+    font-size: 18px;
+    height: 40px;
+     }
+
+.title_content p{
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 7px;
+        color: #30425f;
+        } 
+
+ .table_content{     /*контейнер где лежат внутренности таблиц*/
+     border: 1px solid #d1e8ef;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     background: #fff;
+     box-shadow: 0px 3px 7px #888888;
+     }  
+
+ .name_field{       /*Название полей выбора и ввода*/
+    color: #005ca9;    
+ }
+
+ .name_field p{
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: lighter;
+    text-align: right;
+ }
+ @media screen and (max-width: 1440px) {
+    .name_field p {
+        font-size: 14px;
+    }
+}
+
+ .value_field p{                  /*настройка выбраного в поле елемента*/
+    padding-top: 5px;
+    text-align: left;
+    font-size: 16px;
+ }
+ @media screen and (max-width: 1440px) {
+    .value_field p{
+        font-size: 14px;
+        padding-left: 40px;
+    }
+}
+
+
+
+
+
+ .optional_field button{       /*Цвет кнопки "необязательное поле"*/
+    background-color: #cdbad7;
+    border: 1px solid #c6c6c6;
+ }
+.optional_field input, textarea{             /*Цвет поля "необязательное поле"*/
+    background-color: #eae0ef;
+}
+.lochal_text_blue p{
+    font-size: 14px;
+    color: #005ca9;
+    text-align: right;
+}
+
+ 
+.line_input{                     /*регулировка отступа между строками ввода*/
+    margin-bottom: 2%;
+   /* border: 1px solid red;*/
+}
+.line_input_light{               /*регулировка отступа между строками ввода "нижние поля"*/
+    margin-bottom: 8px;
+   /* border: 1px solid red;*/
+}
+
+.glyphicon-ok{
+    margin-left: 10%;
+    color: #DBDBDB;
+}
+
+.glyphicon-search, 
+.glyphicon-calendar,
+.glyphicon-eye-open{
+    color: #005ca9;
+}
+
+ #redex {         /*фиксация поля ввода комментария*/
+    resize: inherit;
+    width: 400px;
+    
+     
+    ;
+  }   
+.otstup{
+    margin-left: -70px;
+    margin-right: 20px;
+}
+
+
+
+.head_table p{     /*Шапка таблицы*/
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: #777777;
+}
+.value_table{
+    background: #defaec;
+}
+.value_table p{     /*Значения в таблице*/
+    margin: 0;
+    font-size: 14px;
+}
+
+.btn_padding {
+    padding-left: 2%;
+}
+ 
